@@ -1,0 +1,38 @@
+@import 'colors';
+
+.page-container {
+  background: $white;
+  clear: both;
+  height: 100%;
+  margin: auto;
+  max-width: 900px;
+  position: relative;
+  top: 50px;
+  width: 65%;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid $medium-gray;
+}
+
+.tab-number {
+  background: $light-black;
+  width: 20px;
+  height: 19px;
+  border-radius: 50%;
+  margin-left: 10px;
+
+  span {
+    color: $white;
+    margin-left: 6px;
+    font-size: 11px;
+    font-family: cursive;
+    }
+}
+
+.tab-label {
+  margin-top: -19px;
+  margin-left: 39px;
+  color: $light-black;
+}
+   
