@@ -1,11 +1,14 @@
-import react, { Component } from 'react';
+import React, { Component } from 'react';
 
-class RefineDataset extends Component {
+export default class RefineDataset extends Component {
     render() {
         return(
-            <div>
-                RefineDataset
-            </div>
+             <div className='refine-dataset-div'>
+                   <div className='tab-number'>
+                        <div>2</div>
+                    </div>
+                     <div className='tab-label'>Refine Dataset</div>
+                </div>
         );
     }
 }

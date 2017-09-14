@@ -1,9 +1,8 @@
 export const CREATE_MEASURE = 'CREATE_MEASURE';
 
-export function createMeasure(measure) {
-
+export default function createMeasure(measureData) {
     return {
         type : CREATE_MEASURE,
-        measure: measure
+         measureData
     }
 }

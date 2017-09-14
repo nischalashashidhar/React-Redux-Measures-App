@@ -17,22 +17,16 @@
 
 .tab-number {
   background: $light-black;
-  width: 20px;
-  height: 19px;
+  width: 16px;
+  height: 15px;
   border-radius: 50%;
   margin-left: 10px;
-
-  span {
-    color: $white;
-    margin-left: 6px;
-    font-size: 11px;
-    font-family: cursive;
-    }
 }
 
 .tab-label {
-  margin-top: -19px;
-  margin-left: 39px;
+  margin-top: -5px;
+  margin-left: 2px;
+  margin-bottom: -5px;
   color: $light-black;
 }
    

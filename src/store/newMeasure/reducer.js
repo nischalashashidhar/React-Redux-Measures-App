@@ -1,13 +1,12 @@
 import { CREATE_MEASURE } from './action';
 
-const initialState = {
-    measureName: {}
-}
-
-export default function createMeasure(state = initialState, action) {
+export default function createMeasure(state = {}, action) {
+    console.log(action)
     switch(action) {
         case CREATE_MEASURE :
-            return Object.assign({}, state, {measureName: action.measureName});
+            let newState = Object.assign({}, state, {measureData: action.measureData});
+            console.log(newState);
+            return newState;
         default:
             return state;
     }

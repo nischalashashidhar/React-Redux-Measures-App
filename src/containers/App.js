@@ -1,29 +1,27 @@
 import React, { Component } from 'react';
-import { Route, Switch, withRouter } from 'react-router';
+import { Router, Route } from 'react-router';
+import createBrowserHistory from 'history/createBrowserHistory';
 
-import NewMeasure from '../components/NewMeasure';
-import SelectDataset from '../components/SelectDataset';
+import NewMeasure from '../containers/NewMeasure';
+import MeasureDetails from '../components/MeasureDetails';
 
 import '../assets/stylesheets/App.scss';
 
 class App extends Component {
+  
   render() {
+    const history = createBrowserHistory();
+
     return (
-      <div className="App">
-        <Router>
-          <Route component={NewMeasure} exact path ="/new" />
-          <Route component={SelectDataset} exact path ="/selectDataset" /> 
+        <Router history={history}>
+           <div className="App">
+              <Route component={NewMeasure} exact path ="/" />
+              <Route component={MeasureDetails} exact path ="/measureDetails" /> 
+           </div>
         </Router>
-      </div>
     );
   }
 }
 
 
-function mapStateToProps(state) {
-  return {
-    measureName: state.measureName
-  }
-}
-
-export default withRouter(App);
+export default App;
