@@ -3,7 +3,7 @@ import { Router, Route } from 'react-router';
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import NewMeasure from '../containers/NewMeasure';
-import MeasureDetails from '../components/MeasureDetails';
+import MeasureDetails from '../containers/MeasureDetails';
 
 import '../assets/stylesheets/App.scss';
 

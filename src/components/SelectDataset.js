@@ -8,6 +8,8 @@ export default class SelectDataset extends Component {
                         <div>1</div>
                     </div>
                      <div className='tab-label'>Select Dataset</div>
+                       <div className='measure-content'>
+            </div> 
                 </div>
         );
     }

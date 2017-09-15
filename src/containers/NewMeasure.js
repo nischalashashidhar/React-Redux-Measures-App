@@ -15,7 +15,6 @@ class NewMeasure extends Component {
 
     onCreateMeasureBtnClick(e) {
         const {dispatch, history} = this.props;
-        console.log(this.state)
         const measureData = this.state;
         dispatch(createMeasure(measureData));
         history.push('/measureDetails');
