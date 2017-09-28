@@ -1,0 +1,90 @@
+@import 'colors';
+
+.measure-details {
+  height: 525px !important;
+}
+
+.exist-text {
+  font-weight: bold;
+  margin-left: 3%;
+  margin-top: 1px;
+}
+
+.dash{
+  margin-top: 9px;
+  border-top: 1px dashed $grey;
+} 
+
+.select-dataset {
+  .content {
+    background-color: $light-grey;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .dataset {
+    border: 1px solid $medium-gray;
+    margin-top: 2%;
+    background-color: $white;
+    padding: 0;
+    margin-top: 9px;
+
+  .dataset-name {
+    width:200px;
+    margin-left: 6%;
+    margin-top: -46px;
+    font-weight: bold;
+    color: $medium-black;
+  }
+
+  .dataset-desc {
+    margin-left: 30%;
+    margin-top: -2%;
+  }
+
+  .md-selection-control-container {
+    i {
+        margin-top: -57%;
+      }
+  }
+
+  }
+
+}
+
+.selected-dataset {
+  background-color: $white;
+  border: 1px solid $medium-gray;
+  height: 35px;
+  margin-top: 6px;
+
+  .separator {
+    border-left: 1px solid $grey;
+    height: 27px;
+    margin-left: 119px;
+    margin-top: -22px;
+  }
+
+  .chip {
+    margin-left: 15%;
+    margin-top: -29px;
+  }
+}
+  
+.prev {
+  margin-top: 5% !important;
+  margin-left: 40%;
+  font-weight: bold;
+  color: $medium-black;
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 50%;
+  margin-top: -2% !important;
+  font-weight: bold;
+  color: $medium-black;
+  cursor: pointer;
+}

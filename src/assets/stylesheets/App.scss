@@ -3,7 +3,6 @@
 .page-container {
   background: $white;
   clear: both;
-  height: 100%;
   margin: auto;
   max-width: 900px;
   position: relative;
@@ -28,5 +27,6 @@
   margin-left: 2px;
   margin-bottom: -5px;
   color: $light-black;
+  font-weight: bold;
 }
    

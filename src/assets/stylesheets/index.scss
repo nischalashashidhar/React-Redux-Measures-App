@@ -1,2 +1,9 @@
 @import "~react-md/src/scss/react-md";
 @include react-md-everything;
+@import 'colors';
+
+.text {
+  font-weight: bold;
+  color: $medium-black;
+  margin-top: 7px;
+}

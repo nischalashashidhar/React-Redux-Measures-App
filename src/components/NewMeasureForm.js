@@ -12,10 +12,7 @@ export class NewMeasureForm extends Component {
            <Paper>
                <form>
                 <div className='measure-details-head'>
-                    {/* <div className='tab-number'>
-                        <span>1</span>
-                    </div> */}
-                    <div className='tab-label'>Create New Measure</div>
+                  <div className='tab-label'>Create New Measure</div>
                 </div>
                 <div className='new-measure-content'>
                     <div className='measure-name'>

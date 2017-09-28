@@ -1,0 +1,36 @@
+@import 'colors';
+
+.refine-dataset {
+    .exist-text {
+      margin-right: 11px;
+      margin-left: 10px;
+    }
+
+    .selected-ds {
+    background-color: $light-grey;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 66%;
+  }
+}
+
+.ds1 {
+  width: 25%;
+  border: 1px solid $grey;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 29px;
+  background-color: $white;
+}
+
+.ds2 {
+  width: 25%;
+  border: 1px solid $grey;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 270px;
+  background-color: $white;
+}
